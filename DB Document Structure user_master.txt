@@ -1,0 +1,55 @@
+{
+  "invitee_id":"IN01",
+  "inviter_id":"US01",
+  "fname":"Sharad Pawar",
+  "contactNo":"1234567890",
+  "email":"rajesh@gmail.com",
+  "role":{
+    "id":"RL03",
+    "name":"Super Follower"
+  },
+  "password":"123456",
+  "reg_status":1,
+  "active":1,
+  "user_id":"US03",
+  "deviceid":"Cjhfjsadansd239043nr3r328r2bsdg1s5gdsg5sgd5sg",
+  "profile":{
+  "profession":"Doctor",
+  "occupation":"HOD",
+  "age":50,
+  "sex":"Male"
+  },
+  "rights":[
+    {"id":"RT01","name":"Upload Excel"},
+    {"id":"RT02","name":"Send Invite"},
+    {"id":"RT03","name":"Send Message"}
+    ],
+  "followers":[
+    {"user_id":"US04","fname":"Ajit Pawar", "contactNo":"1234567890"},
+    {"user_id":"US05","fname":"Supriya Sule", "contactNo":"9848798969"},
+    {"user_id":"US06","fname":"Praful Patel", "contactNo":"9863547895"}
+    ], 
+  "following":[
+    "US01",
+    "US02"
+    ],
+  "message":[
+    {"message_id":"M01",
+    "type": "new message",
+    "message":"If an industrialist can sell his products anywhere in India and the world, why should a farmer not be allowed to do so?",
+    "time":"84981981320",
+    "SendTo":[
+      "US04",
+      "US05",
+      "US06"
+      ]},
+  {"message_id":"M01",
+    "type":"forwarded message",
+    "message":"Whether some may like it or not, I am still the farmer that I was born as and will continue to be one.",
+    "time":"7894861811",
+    "SendTo":[
+      "US04",
+      "US05"
+      ]}
+    ]
+}
